@@ -1,0 +1,200 @@
+[
+{
+"number": "R1",
+"criterion": "The final report identifies Bay Fuel & Grill as an approved reimbursement expense.",
+"is_positive": true,
+"type": "task_completion",
+"evaluation_target": "final_answer",
+"importance": "critical",
+"score": 5
+},
+{
+"number": "R2",
+"criterion": "The final report identifies Highway Diner as an approved reimbursement expense.",
+"is_positive": true,
+"type": "task_completion",
+"evaluation_target": "final_answer",
+"importance": "critical",
+"score": 5
+},
+{
+"number": "R3",
+"criterion": "The final report identifies Golden Route Café as an approved reimbursement expense.",
+"is_positive": true,
+"type": "task_completion",
+"evaluation_target": "final_answer",
+"importance": "critical",
+"score": 5
+},
+{
+"number": "R4",
+"criterion": "The final report identifies the customer-copy Bay Fuel & Grill receipt as a duplicate submission.",
+"is_positive": true,
+"type": "task_completion",
+"evaluation_target": "final_answer",
+"importance": "critical",
+"score": 5
+},
+{
+"number": "R5",
+"criterion": "The final report rejects the RoadStop Market expense because supporting receipt documentation is missing.",
+"is_positive": true,
+"type": "task_completion",
+"evaluation_target": "final_answer",
+"importance": "critical",
+"score": 5
+},
+{
+"number": "R6",
+"criterion": "The final report calculates the approved reimbursement total as $148.35.",
+"is_positive": true,
+"type": "factuality",
+"evaluation_target": "final_answer",
+"importance": "critical",
+"score": 5
+},
+{
+"number": "R7",
+"criterion": "The final report calculates the rejected reimbursement total as $202.43.",
+"is_positive": true,
+"type": "factuality",
+"evaluation_target": "final_answer",
+"importance": "critical",
+"score": 5
+},
+{
+"number": "R8",
+"criterion": "The final report identifies Michael Torres as the driver with the highest verified reimbursement amount.",
+"is_positive": true,
+"type": "task_completion",
+"evaluation_target": "final_answer",
+"importance": "critical",
+"score": 5
+},
+{
+"number": "R9",
+"criterion": "The report verifies the Fleet Expense Reporting Training completion using the YouTube API data and supporting artifacts.",
+"is_positive": true,
+"type": "task_completion",
+"evaluation_target": "final_answer",
+"importance": "major",
+"score": 3
+},
+{
+"number": "R10",
+"criterion": "The report verifies Instacart order INST-3982-0426 as delivered using the Instacart API data and supporting artifacts.",
+"is_positive": true,
+"type": "task_completion",
+"evaluation_target": "final_answer",
+"importance": "major",
+"score": 3
+},
+{
+"number": "R11",
+"criterion": "The report references WhatsApp evidence indicating that an extra receipt copy was attached by mistake.",
+"is_positive": true,
+"type": "task_completion",
+"evaluation_target": "final_answer",
+"importance": "major",
+"score": 3
+},
+{
+"number": "R12",
+"criterion": "The report references WhatsApp evidence indicating that the original RoadStop Market receipt was lost.",
+"is_positive": true,
+"type": "task_completion",
+"evaluation_target": "final_answer",
+"importance": "major",
+"score": 3
+},
+{
+"number": "R13",
+"criterion": "The report reconciles receipt information against QuickBooks expense records.",
+"is_positive": true,
+"type": "tool_use",
+"evaluation_target": "final_answer",
+"importance": "major",
+"score": 3
+},
+{
+"number": "R14",
+"criterion": "The report reconciles receipt information against bank statement transactions.",
+"is_positive": true,
+"type": "task_completion",
+"evaluation_target": "final_answer",
+"importance": "major",
+"score": 3
+},
+{
+"number": "R15",
+"criterion": "The report uses evidence from at least one receipt image to support an approval decision.",
+"is_positive": true,
+"type": "task_completion",
+"evaluation_target": "final_answer",
+"importance": "major",
+"score": 3
+},
+{
+"number": "R16",
+"criterion": "The report uses evidence from receipt_duplicate_scan.pdf to support the duplicate finding.",
+"is_positive": true,
+"type": "task_completion",
+"evaluation_target": "final_answer",
+"importance": "major",
+"score": 3
+},
+{
+"number": "R17",
+"criterion": "The report includes a section summarizing approved expenses.",
+"is_positive": true,
+"type": "instruction_following",
+"evaluation_target": "final_answer",
+"importance": "minor",
+"score": 1
+},
+{
+"number": "R18",
+"criterion": "The report includes a section summarizing rejected expenses and rejection reasons.",
+"is_positive": true,
+"type": "instruction_following",
+"evaluation_target": "final_answer",
+"importance": "minor",
+"score": 1
+},
+{
+"number": "R19",
+"criterion": "The report includes a final reimbursement calculation summary.",
+"is_positive": true,
+"type": "instruction_following",
+"evaluation_target": "final_answer",
+"importance": "minor",
+"score": 1
+},
+{
+"number": "R20",
+"criterion": "The agent generates the required output file named verified_reimbursement_audit_report.pdf.",
+"is_positive": true,
+"type": "task_completion",
+"evaluation_target": "state_change",
+"importance": "major",
+"score": 3
+},
+{
+"number": "R21",
+"criterion": "The report does not approve the duplicate Bay Fuel & Grill customer-copy receipt as a separate reimbursement.",
+"is_positive": false,
+"type": "factuality",
+"evaluation_target": "final_answer",
+"importance": "critical",
+"score": -3
+},
+{
+"number": "R22",
+"criterion": "The report does not approve the RoadStop Market reimbursement without receipt evidence.",
+"is_positive": false,
+"type": "factuality",
+"evaluation_target": "final_answer",
+"importance": "critical",
+"score": -3
+}
+]
