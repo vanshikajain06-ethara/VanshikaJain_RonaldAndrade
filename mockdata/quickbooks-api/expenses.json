@@ -1,0 +1,36 @@
+{
+  "expenses": [
+    {
+      "expense_id": "EXP-1001",
+      "driver": "Michael Torres",
+      "vendor": "Bay Fuel & Grill",
+      "date": "2026-04-12",
+      "amount": 89.53,
+      "status": "Pending"
+    },
+    {
+      "expense_id": "EXP-1002",
+      "driver": "Sarah Brooks",
+      "vendor": "Highway Diner",
+      "date": "2026-04-18",
+      "amount": 34.37,
+      "status": "Pending"
+    },
+    {
+      "expense_id": "EXP-1003",
+      "driver": "Michael Torres",
+      "vendor": "Golden Route Café",
+      "date": "2026-04-22",
+      "amount": 24.45,
+      "status": "Pending"
+    },
+    {
+      "expense_id": "EXP-1004",
+      "driver": "John Miller",
+      "vendor": "RoadStop Market",
+      "date": "2026-04-24",
+      "amount": 112.90,
+      "status": "Pending"
+    }
+  ]
+}

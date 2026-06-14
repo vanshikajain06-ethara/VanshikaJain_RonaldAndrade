@@ -1,0 +1,24 @@
+{
+  "messages": [
+    {
+      "sender": "Michael Torres",
+      "date": "2026-04-13",
+      "message": "Submitting the fuel receipt from April 12."
+    },
+    {
+      "sender": "Michael Torres",
+      "date": "2026-04-13",
+      "message": "Please ignore the extra copy attached by mistake."
+    },
+    {
+      "sender": "John Miller",
+      "date": "2026-04-24",
+      "message": "I misplaced the original RoadStop Market receipt."
+    },
+    {
+      "sender": "John Miller",
+      "date": "2026-04-24",
+      "message": "Only the bank transaction is available."
+    }
+  ]
+}
